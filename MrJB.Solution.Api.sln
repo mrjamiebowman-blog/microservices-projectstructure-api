@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution Items", "_Solution Items", "{5FD6E436-ABC1-4832-92F4-D926ED8A8BCA}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5D4141C7-7C4A-440C-A4AA-CFF39B9C895E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{23203858-63AA-40BD-AB1B-4DD25D68CE66}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MrJB.Solution.Api", "src\MrJB.Solution.Api\MrJB.Solution.Api.csproj", "{28F34FF4-A1FE-4DB4-B451-A5AF3EF57DB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28F34FF4-A1FE-4DB4-B451-A5AF3EF57DB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28F34FF4-A1FE-4DB4-B451-A5AF3EF57DB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28F34FF4-A1FE-4DB4-B451-A5AF3EF57DB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28F34FF4-A1FE-4DB4-B451-A5AF3EF57DB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{28F34FF4-A1FE-4DB4-B451-A5AF3EF57DB1} = {5D4141C7-7C4A-440C-A4AA-CFF39B9C895E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3149E51B-D474-45ED-B06B-286536BC7C2E}
+	EndGlobalSection
+EndGlobal

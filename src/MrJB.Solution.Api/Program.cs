@@ -1,3 +1,5 @@
+using MrJB.Solution.Common;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add service defaults & Aspire components.
@@ -29,11 +31,9 @@ app.MapGet("/weatherforecast", () =>
     return forecast;
 });
 
-//app.MapDefaultEndpoints();
+// aspire
+app.MapDefaultEndpoints();
 
 app.Run();
 
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}
+
